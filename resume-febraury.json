@@ -1,0 +1,123 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Work Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects",
+    "awards": "Competitions"
+  },
+  "basics": {
+    "name": "Aly Youssef",
+    "email": "aly-hassan-youssef@aucegypt.edu",
+    "phone": "+20 1011160288",
+    "website": "https://github.com/bobelmasry",
+    "location": {
+      "address": "Cairo, Egypt"
+    }
+  },
+  "education": [
+    {
+      "institution": "American University in Cairo",
+      "location": "Cairo, Egypt",
+      "area": "Computer Science",
+      "studyType": "BS",
+      "startDate": "Fall 2023",
+      "gpa": "3.33 (10 / 3)",
+      "endDate": "Spring 2027"
+    }
+  ],
+  "work": [
+    {
+      "company": "Teachmegcse",
+      "location": "Cairo",
+      "position": "Startup Founder",
+      "website": "",
+      "startDate": "August 2022",
+      "endDate": "October 2024",
+      "highlights": [
+        "Made a Python program using Tkinter, PYPDF2, Pdf2Image and PIL to automate the process of splitting a pdf question paper with up to 40 questions into a JPEG of each question on it's own reducing time needed to split the questions by almost 95%",
+        "Automated classifying the questions into chapters using an AI naive-bayes text classifier with sci-kit to  analyze the keywords that are specific to that chapter using training data and reaching an accuracy of  90%",
+        "Built a Next.js website to allow teachers to dynamically add questions to a worksheet which can exported as a PDF. Also allowed students to interactively solve questions with tracking their progress and displaying explanations made with Gemini's api.",
+        "Made a Python web scraping tool using python-requests and BeatifulSoup to get links for previous past  papers from another website to automate downloading and hosting the files on AWS S3.",
+        null
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "Python, JavaScript, C++, C,  HTML, CSS"
+      ]
+    },
+    {
+      "keywords": [
+        "NextJS",
+        "React",
+        "Sci-Kit",
+        "Django"
+      ],
+      "name": "Frameworks"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "Python",
+        "YOLO",
+        "PyTesseract",
+        "PIL"
+      ],
+      "url": "https://github.com/bobelmasry/mathSolver",
+      "name": "YOLO Latex Math Parser",
+      "description": "A Math parser that takes as input images which contain both Latex and normal text which then separates Latex formulas from the text using a custom made YOLO object detection model and uses the LatexOCR for those and PyTesseract for the normal text."
+    },
+    {
+      "keywords": [
+        "Python",
+        "pyautogui",
+        "PIL"
+      ],
+      "description": "An Instagram Bot that automatically moves the mouse to follow people that follow related pages to yours, went from 50 followers on a test page to 500 in less than 10 days. Undetectable as it manually moves the mouse instead of interacting with the browser using Selenium.",
+      "name": "InstaFollower",
+      "url": "https://github.com/bobelmasry/instaFollower"
+    },
+    {
+      "keywords": [
+        "JavaScript",
+        "NextJS",
+        "Pocketbase"
+      ],
+      "name": "g-drive",
+      "description": "A Google Drive Ripoff built with PocketBase. It offers file uploads, folder creation, previews of Images and mp3 files.",
+      "url": "https://github.com/bobelmasry/g-drive"
+    },
+    {
+      "keywords": [
+        "Python",
+        "Pygame"
+      ],
+      "name": "Planet Simulation",
+      "description": "A useful tool to map the trajectories of different planets and measure the eccentricity of their orbits using Newton's Laws of Gravitation.",
+      "url": "https://github.com/bobelmasry/planet-simulation"
+    }
+  ],
+  "awards": [
+    {
+      "title": "5th place at RoboCup @ Home Education 2024",
+      "awarder": "Febraury 2024",
+      "summary": "Developed and integrated an object detection system using a pre-existing model to identify objects within the robot's environment, coupled with a depth camera to calculate precise object coordinates and depth. Leveraged this data to enhance the robot’s perception, providing real-time inputs to the SLAM software for improved localization, mapping, and autonomous navigation in dynamic environments."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
